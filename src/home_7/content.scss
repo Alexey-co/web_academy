@@ -1,0 +1,57 @@
+@import "../common/styles/variables";
+
+.gallery {
+  border: 1px solid silver;
+
+  &__item {
+    background-size: cover;
+    position: relative;
+    height: 290px;
+
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    @for $i from 1 to 9 {
+      &:nth-child(#{$i}) {
+        background-image: url(./images/#{$i}.jpg);
+      }
+    }
+  }
+}
+
+.page-header {
+  padding: 0.5rem;
+  color: black;
+  text-align: center;
+}
+
+.btn {
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 15%;
+}
+
+@media screen and(max-width: $screen-lg) {
+  .gallery {
+    &__item {
+      height: 250px;
+    }
+  }
+}
+
+@media screen and(max-width: $screen-md) {
+  .gallery {
+    &__item {
+      height: 200px;
+    }
+  }
+}
+
+@media screen and(max-width: $screen-sm) {
+  .gallery {
+    &__item {
+      height: 150px;
+    }
+  }
+}

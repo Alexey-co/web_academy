@@ -1,0 +1,1 @@
+import './home_7.scss';

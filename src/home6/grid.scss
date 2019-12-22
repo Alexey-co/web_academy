@@ -1,0 +1,19 @@
+.grid {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+[class*="col-"] {
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+$total-cols: 12;
+$col-size: 100% / 12;
+
+@for $i from 1 through $total-cols {
+  .col-#{$i} {
+    width: $col-size * $i;
+  }
+}
