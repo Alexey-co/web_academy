@@ -22,5 +22,50 @@
   ],
   "lesson_8": [
     "./src/lesson_8/lesson_8.js"
+  ],
+  "lesson_9": [
+    "./src/lesson_9/lesson_9.js"
+  ],
+  "lesson_10": [
+    "./src/lesson_10/lesson_10.js"
+  ],
+  "home_10": [
+    "./src/home_10/home_10.js"
+  ],
+  "java_learn": [
+    "./src/java_learn/java_learn.js"
+  ],
+  "java_learn_home_1": [
+    "./src/java_learn_home_1/java_learn_home_1.js"
+  ],
+  "lesson_11": [
+    "./src/lesson_11/lesson_11.js"
+  ],
+  "lesson_12": [
+    "./src/lesson_12/lesson_12.js"
+  ],
+  "home_12": [
+    "./src/home_12/home_12.js"
+  ],
+  "lesson_13": [
+    "./src/lesson_13/lesson_13.js"
+  ],
+  "lesson_13_1": [
+    "./src/lesson_13_1/lesson_13_1.js"
+  ],
+  "lesson_14": [
+    "./src/lesson_14/lesson_14.js"
+  ],
+  "javascript_array": [
+    "./src/javascript_array/javascript_array.js"
+  ],
+  "javascript_prototype": [
+    "./src/javascript_prototype/javascript_prototype.js"
+  ],
+  "lesson_15": [
+    "./src/lesson_15/lesson_15.js"
+  ],
+  "lesson_16": [
+    "./src/lesson_16/lesson_16.js"
   ]
 }
